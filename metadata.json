@@ -1,0 +1,6 @@
+{
+  "name": "Mini ERP & CRM Operations Portal",
+  "description": "A comprehensive full-stack ERP and CRM portal with JWT authentication, customer CRM, inventory logs, and sales challan workflows with stock validation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

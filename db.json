@@ -1,0 +1,251 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "email": "admin@erp.com",
+      "name": "Alok Sharma",
+      "role": "Admin",
+      "password": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918"
+    },
+    {
+      "id": "u2",
+      "email": "sales@erp.com",
+      "name": "Rohan Mehta",
+      "role": "Sales",
+      "password": "e04eb29020eaa961e99d3162635e9fe9585c5a1121bd88784c1378aa8837195c"
+    },
+    {
+      "id": "u3",
+      "email": "warehouse@erp.com",
+      "name": "Sanjay Dutt",
+      "role": "Warehouse",
+      "password": "ae1fd358c7612a02fdc6d923fd40308ebefb0e954c7ddb6f9a8bcdd1f3b00c3b"
+    },
+    {
+      "id": "u4",
+      "email": "accounts@erp.com",
+      "name": "Priya Iyer",
+      "role": "Accounts",
+      "password": "bc62a3c14fec277e3dc6b504bf7c6348c2e421f8acc42032deddb0a96070f078"
+    }
+  ],
+  "customers": [
+    {
+      "id": "c1",
+      "name": "Rajesh Kumar",
+      "mobileNumber": "9876543210",
+      "email": "rajesh@kumarenterprises.com",
+      "businessName": "Kumar Enterprises",
+      "gstNumber": "27AAAAA1111A1Z1",
+      "customerType": "Wholesale",
+      "address": "102, Industrial Area Phase II, Mumbai, Maharashtra",
+      "status": "Active",
+      "followUpDate": "2026-07-25",
+      "notes": "Premium distributor. Prefers bulk shipments of category A items.",
+      "createdAt": "2026-07-10T10:00:00.000Z"
+    },
+    {
+      "id": "c2",
+      "name": "Anjali Gupta",
+      "mobileNumber": "9123456789",
+      "email": "anjali@guptaretails.com",
+      "businessName": "Gupta Retail Stores",
+      "gstNumber": "27BBBBB2222B2Z2",
+      "customerType": "Retail",
+      "address": "Shop No. 4, Link Road, Andheri West, Mumbai",
+      "status": "Active",
+      "followUpDate": "2026-07-28",
+      "notes": "Regular retail customer. Orders weekly. Quick payer.",
+      "createdAt": "2026-07-12T14:30:00.000Z"
+    },
+    {
+      "id": "c3",
+      "name": "Vikram Singh",
+      "mobileNumber": "8888888888",
+      "email": "vikram@singhdistributors.com",
+      "businessName": "Singh Logistics & Distribution",
+      "gstNumber": "",
+      "customerType": "Distributor",
+      "address": "Plot 45, Sector 5, Gandhinagar, Gujarat",
+      "status": "Lead",
+      "followUpDate": "2026-07-22",
+      "notes": "Awaiting GST documentation. Intends to place a large initial order.",
+      "createdAt": "2026-07-15T09:15:00.000Z"
+    },
+    {
+      "id": "c4",
+      "name": "Meera Nair",
+      "mobileNumber": "7777666555",
+      "email": "meera@nairandco.com",
+      "businessName": "Nair Trading Company",
+      "gstNumber": "32CCCCC3333C3Z3",
+      "customerType": "Wholesale",
+      "address": "B-12, MG Road, Kochi, Kerala",
+      "status": "Inactive",
+      "followUpDate": "2026-08-10",
+      "notes": "On hold due to pending clearance of previous invoices.",
+      "createdAt": "2026-07-01T11:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Premium Wireless Headphones",
+      "sku": "AUDIO-WH-300",
+      "category": "Electronics",
+      "unitPrice": 4500,
+      "currentStock": 120,
+      "minimumStockAlertQuantity": 20,
+      "location": "Warehouse A - Bin 14"
+    },
+    {
+      "id": "p2",
+      "name": "Ergonomic Mechanical Keyboard",
+      "sku": "KEY-MECH-450",
+      "category": "Computer Accessories",
+      "unitPrice": 3200,
+      "currentStock": 15,
+      "minimumStockAlertQuantity": 25,
+      "location": "Warehouse A - Bin 08"
+    },
+    {
+      "id": "p3",
+      "name": "Ultra Wide Desktop Monitor 32\"",
+      "sku": "DISP-UW-32",
+      "category": "Electronics",
+      "unitPrice": 18500,
+      "currentStock": 80,
+      "minimumStockAlertQuantity": 10,
+      "location": "Warehouse B - Shelf 02"
+    },
+    {
+      "id": "p4",
+      "name": "Type-C Fast Charging Hub",
+      "sku": "CHG-HUB-06",
+      "category": "Accessories",
+      "unitPrice": 1200,
+      "currentStock": 350,
+      "minimumStockAlertQuantity": 50,
+      "location": "Warehouse B - Bin 41"
+    },
+    {
+      "id": "p5",
+      "name": "Noise Cancelling Earbuds",
+      "sku": "AUDIO-NC-50",
+      "category": "Electronics",
+      "unitPrice": 2800,
+      "currentStock": 8,
+      "minimumStockAlertQuantity": 15,
+      "location": "Warehouse A - Bin 15"
+    }
+  ],
+  "stockMovements": [
+    {
+      "id": "m1",
+      "productId": "p1",
+      "productName": "Premium Wireless Headphones",
+      "sku": "AUDIO-WH-300",
+      "quantityChanged": 150,
+      "movementType": "IN",
+      "reason": "Initial stock intake from manufacturer",
+      "createdBy": "u3",
+      "createdByName": "Sanjay Dutt",
+      "timestamp": "2026-07-16T10:00:00.000Z"
+    },
+    {
+      "id": "m2",
+      "productId": "p2",
+      "productName": "Ergonomic Mechanical Keyboard",
+      "sku": "KEY-MECH-450",
+      "quantityChanged": 20,
+      "movementType": "IN",
+      "reason": "Purchase order receipt PO-402",
+      "createdBy": "u3",
+      "createdByName": "Sanjay Dutt",
+      "timestamp": "2026-07-17T11:30:00.000Z"
+    },
+    {
+      "id": "m3",
+      "productId": "p1",
+      "productName": "Premium Wireless Headphones",
+      "sku": "AUDIO-WH-300",
+      "quantityChanged": 30,
+      "movementType": "OUT",
+      "reason": "Sales order dispatch CH-20260718-001",
+      "createdBy": "u3",
+      "createdByName": "Sanjay Dutt",
+      "timestamp": "2026-07-18T16:45:00.000Z"
+    }
+  ],
+  "challans": [
+    {
+      "id": "ch1",
+      "challanNumber": "CH-20260718-001",
+      "customerId": "c1",
+      "customerName": "Rajesh Kumar",
+      "customerBusinessName": "Kumar Enterprises",
+      "products": [
+        {
+          "productId": "p1",
+          "name": "Premium Wireless Headphones",
+          "sku": "AUDIO-WH-300",
+          "unitPrice": 4500,
+          "quantity": 30
+        },
+        {
+          "productId": "p2",
+          "name": "Ergonomic Mechanical Keyboard",
+          "sku": "KEY-MECH-450",
+          "unitPrice": 3200,
+          "quantity": 5
+        }
+      ],
+      "totalQuantity": 35,
+      "totalAmount": 151000,
+      "status": "Confirmed",
+      "createdBy": "u2",
+      "createdByName": "Rohan Mehta",
+      "createdDate": "2026-07-18"
+    },
+    {
+      "id": "ch2",
+      "challanNumber": "CH-20260720-002",
+      "customerId": "c2",
+      "customerName": "Anjali Gupta",
+      "customerBusinessName": "Gupta Retail Stores",
+      "products": [
+        {
+          "productId": "p4",
+          "name": "Type-C Fast Charging Hub",
+          "sku": "CHG-HUB-06",
+          "unitPrice": 1200,
+          "quantity": 10
+        }
+      ],
+      "totalQuantity": 10,
+      "totalAmount": 12000,
+      "status": "Draft",
+      "createdBy": "u2",
+      "createdByName": "Rohan Mehta",
+      "createdDate": "2026-07-20"
+    }
+  ],
+  "followUpNotes": [
+    {
+      "id": "n1",
+      "customerId": "c1",
+      "note": "Spoke on phone. Customer requested immediate delivery of the headphones challan. Happy with the packing.",
+      "createdBy": "u2",
+      "createdByName": "Rohan Mehta",
+      "timestamp": "2026-07-18T17:00:00.000Z"
+    },
+    {
+      "id": "n2",
+      "customerId": "c3",
+      "note": "Initial meeting held at corporate park. Handed over product catalog. They are wholesale buyers interested in display units.",
+      "createdBy": "u2",
+      "createdByName": "Rohan Mehta",
+      "timestamp": "2026-07-16T12:00:00.000Z"
+    }
+  ]
+}
