@@ -129,12 +129,8 @@ All API endpoints are prefixed with `/api`. Authenticated endpoints require a `A
 
 ## 📝 Submission Notes
 
-- **GitHub repository link**: No remote is configured in this workspace yet.
-  - To add a remote after creating a GitHub repo:
-    ```bash
-git remote add origin <your-repo-url>
-git push -u origin main
-```
+- **GitHub repository link**: 
+  - https://github.com/nidhi03062006/mini-erp-crm-systems
 - **Live frontend URL**: `http://localhost:3000`
 - **Live backend API base URL**: `http://localhost:3000/api`
 - **Test login credentials**:
